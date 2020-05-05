@@ -1,22 +1,15 @@
 # RT
-RT is an advanced rendering project of school 42. It implements ...
+RT is an advanced rendering project at school 42. It simulates light different interactions with matter (reflection, refraction, scattering) allowing to render realistic images.
 Note: this project was made for MacOS.
 
 ## Installation
-Clone or download this repository and run make in command line while in the root of the repository. This command will build executables called ...
-...
+Clone or download this repository.
+Run `make sdl_install` in order to download sdl (graphic library) to your computer (reminder: this works only for MacOS).
+Run `make`
+This command will build executables called `rtv1`.
 
 ## Usage
-./rtv1 scenes/...
+Run `./rtv1 scenes/[select_scene]`
+Example: `./rtv1 scenes/complex_scene`
 
 ## Screenshots
-
-
-
-## Bonus
-
-
-@Antoine: inspiration:
-https://github.com/VolodymyrKuksa/RT#installation
-https://github.com/wwatkins42/RT
-https://github.com/ldehaudt/SimpleRaytracer
